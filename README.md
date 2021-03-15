@@ -133,11 +133,9 @@ DEPENDENCIAS:
 
     dotnet tool install --global dotnet-ef --version 3.1.13 (migrations command CLI. sem isso comando não é reconhecido)
 
-    dotnet add package Microsoft.EntityFrameworkCore --version 3.1.13 (DbContext and DbSet classes)
+    dotnet add package Microsoft.EntityFrameworkCore.Tools --version 3.1.1 (DbContext and DbSet classes. para padronizar com SQL server e funcionar com template igual do MySql)
 
-    dotnet add package Microsoft.EntityFrameworkCore.Design --version 3.1.13 (migration passa a funcionar mas reclama que falta a dependencia do Microsoft.EntityFrameworkCore.Design. para padronizar com SQL server e funcionar com template igual do MySql)    
-
-    dotnet add package Pomelo.EntityFrameworkCore.MySql --version 3.2.4 (UseMySql())
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 3.1.1 (UseSqlServer())    
 
     dotnet add package NLog.Web.AspNetCore --version 4.11.0 (for NLog)
 
