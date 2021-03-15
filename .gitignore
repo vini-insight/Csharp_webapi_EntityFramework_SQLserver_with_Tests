@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+appsettings.json
+appsettings.Development.json
+internal-nlog-AspNetCore3.txt
+UnitTest1.cs
+.vscode/
+obj/
+bin/
+ignoregit/
+
 # User-specific files
 *.rsuser
 *.suo
